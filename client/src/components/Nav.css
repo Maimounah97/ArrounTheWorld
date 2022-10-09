@@ -1,0 +1,50 @@
+nav{
+    width: 100%;
+    position: absolute;
+    top:0 ;
+    left:0 ;
+    padding: 20px 6%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index  :2000000000000000;
+
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+   /* font-family: 'Courier New', Courier, monospace; */
+} 
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: #fdbf06;
+    font-size: 18px;
+}
+
+.moodBtn{
+    /* position: absolute; */
+    /* right: 0; */
+    /* top: 0; */
+    /* z-index :900000000000000000000000000; */
+}
+
+.logout{
+    width: 20px;
+    color: #fdbf06;
+}
+
+
+.bgcolor{
+
+}
+
+

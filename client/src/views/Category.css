@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Yellowtail&display=swap');
+
+.wrapper{
+  display: flex;
+  width : 90%;
+  justify-content: space-around;
+}
+
+.cssCard2{
+  width: 80%;
+  height: 360px;
+}
+
+
+/* .forest-bg{
+  background-color: #5A6963;
+} */
+
+.bodyForestbg{
+  min-height: 1600px;
+  background: #5A6963;
+}
+
+/* 
+.forestbg{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+.forestbg:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1400px;
+  background: linear-gradient(to bottom , #5A6963 0% , #5A6963 50% , #5A6963 80% , #5A6963 100%);
+  z-index: 10000;
+}
+
+
+.main img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height : 100%;
+  object-fit: cover;
+  pointer-events: none;
+} */
+
+.secondary img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height : 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+
+.forestCard {
+  z-index: 99000000000000000000000000;
+}
+
+
+
+
+
+
+
+/**/
+
+.cards-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cards-header{
+  margin-top: 20px;
+  z-index: 900000000;
+  color: rgb(155, 155, 155);
+}
+
+
+.cardsStyle{
+  position: absolute;
+}
+
+.wrapper{
+  display: flex;
+  width : 90%;
+  justify-content: space-around;
+}
+
+.cssCard{
+  width: 240px;
+  height: 360px;
+  padding: 2rem 1rem;
+  margin-right: 20px;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+}
+
+.cssCard:hover{
+  transform: translateY(20px);
+}
+
+.cssCard:before{
+  border-radius: 20px;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom , rgba(255, 255, 255, 0)0% , rgba(255, 255, 255, 0.1)50% , rgba(255,255,255,0.3)80% , #fff 100%);
+  z-index: 30000000;
+  transition: 0.5s all;
+  opacity: 0;
+}
+
+.cssCard:hover:before{
+  border-radius: 20px;
+  opacity: 1;
+}
+
+.cssCard img{
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.cssCard .info{
+  position: relative;
+  z-index: 400000000;
+  color: #000;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s all;
+}
+
+
+.cssCard:hover .info{
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+
+
+.popupDetContainer{
+position: fixed;
+top: 0% ; left: 0%;
+/* top: 5% ; left: 5%; */
+background: rgba(0,0,0,0.8);
+/* background: rgba(0,0,0,0.9); */
+height: 100%;
+width: 100%;
+/* height: 90%;
+width: 90%; */
+/* border-radius: 20px; */
+z-index: 990000000000000000000000000;
+}
+
+
+
+.popupDetContainer .exitButton{
+position: absolute;
+top: 6px ; right: 50px;
+font-size: 40px;
+font-weight: bolder;
+color : #fff;
+cursor: pointer;
+/* padding: 20px; */
+z-index: 990000000000000000000000000;
+}
+.popupDetContainer h1{
+font-family: 'Yellowtail', cursive;
+font-size: 50px;
+font-weight: bolder;
+}
+
+
+.palceInfo{
+  color: rgb(255, 221, 0);
+}
+
+
+.popupDetContainer .popupCont{
+  position: absolute;
+  top: 10% ; 
+  /* transform: translate(-50 , 50%); */
+  left: 15%;
+  width: 300px;
+  height: 600px;
+  color: #fff;
+  object-fit: cover;
+  /* border-radius: 200px; */
+  z-index: 990000000000000000000000000;
+  }
+
+.popupDetContainer .popupCont .popupInfo{
+  position: absolute;
+  top: 30% ; 
+  /* transform: translate(-50 , 50%); */
+  left: 0%;
+  width: 300px;
+  height: 600px;
+  color: #fff;
+  object-fit: cover;
+  /* border-radius: 200px; */
+  z-index: 990000000000000000000000000;
+  }
+
+
+.popupDetContainer .popupCont img{
+position: absolute;
+/* top: 20% ;  */
+/* transform: translate(-50 , 50%); */
+left: 140%;
+width: 600px;
+height: 600px;
+/* height: 450px; */
+/* height: 450px; */
+color: #fff;
+object-fit: cover;
+/* border-radius: 20px; */
+border-radius: 600px;
+z-index: 990000000000000000000000000;
+}

@@ -1,0 +1,12 @@
+.about-container{
+    margin: 0 auto;
+    margin-top: 300px;
+    padding-bottom: 200px;
+    max-width: 1000px;
+     
+    color: gray;
+}
+
+.orangeText{
+   color :  #ffbc15
+}

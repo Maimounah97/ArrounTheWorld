@@ -1,0 +1,26 @@
+
+.contactForm{
+    z-index: 2000000;
+
+}
+.contactImageBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+.contactBorderDark{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: #09171c98;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.contactBorderLight{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 10px 50px;
+    background-color: #ffffff98;
+    padding: 40px;
+    border-radius: 20px;
+}

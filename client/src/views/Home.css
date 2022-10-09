@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    min-height: 1600px;
+    background: #000;
+}
+
+.body-secondary{
+    min-height: 1600px;
+    background: #fff;
+}
+
+.bodyForest{
+    min-height: 1600px;
+    background: #5A6963;
+}
+
+
+.main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(0, 0, 0, 0)0% , rgba(0, 0, 0, 0)50% , rgba(0,0,0,0.3)80% , #000 100%);
+    z-index: 10000;
+}
+
+
+.secondary{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.secondary:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(255, 255, 255, 0)0% , rgba(255, 255, 255, 0)50% , rgba(255,255,255,0.3)80% , #fff 100%);
+    z-index: 10000;
+}
+
+
+.forest{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.forest:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(90, 105, 99, 0)0% , rgba(90, 105, 99, 0)50% , rgba(90, 105, 99,0.3)80% , #5A6963 100%);
+    z-index: 10000;
+}
+
+.main video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+/*category*/
+
+
+/*category*/
+
+
+.secondary video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+.bodyForest img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+.cards-style{
+    z-index: 90000000000000000;
+    position: absolute;
+
+}
+
+
+
+.sectionTitle{
+    position: relative;
+    color: #fff;
+    /* z-index: 90000000000000; */
+    font-size: 12em;
+    text-align: center;
+    padding-top: 205px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+.bodyDesert{
+    min-height: 1600px;
+    background: #C6A18C;
+}
+
+.desert{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.desert:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(198, 161, 140, 0)0% , rgba(198, 161, 140, 0)50% , rgba(198, 161, 140,0.3)80% , #C6A18C 100%);
+    z-index: 10000;
+}
+
+.bodyDesert img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+
+.bodySea{
+    min-height: 1600px;
+    background: #236C94;
+}
+
+.sea{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.sea:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(35, 108, 148, 0)0% , rgba(35, 108, 148, 0)50% , rgba(35, 108, 148,0.3)80% , #236C94 100%);
+    z-index: 10000;
+}
+
+.bodySea img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+
+
+.bodyHeights{
+    min-height: 1600px;
+    background: #232C30;
+}
+
+.heights{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.heights:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(35, 44, 48, 0)0% , rgba(35, 44, 48, 0)50% , rgba(35, 44, 48,0.3)80% , #232C30 100%);
+    z-index: 10000;
+}
+
+.bodyHeights img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+
+
+
+.bodyForest2{
+    min-height: 1600px;
+    background: #2E2E31;
+}
+
+.forest2{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+
+.forest2:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background: linear-gradient(to bottom , rgba(46, 46, 49, 0)0% , rgba(46, 46, 49, 0)50% , rgba(46, 46, 49,0.3)80% , #2E2E31 100%);
+    z-index: 10000;
+}
+
+.bodyForest2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height : 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+.loginForm{
+    z-index: 2000000;
+
+}
+.imageBack{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+.login-border{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    background-color: #09171c98;
+    padding: 40px;
+    border-radius: 20px;
+}
